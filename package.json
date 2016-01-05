@@ -1,0 +1,22 @@
+{
+  "name": "srtest",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Dummy test: ok\" && exit 0",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Guria/srtest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Guria/srtest/issues"
+  },
+  "homepage": "https://github.com/Guria/srtest#readme",
+  "devDependencies": {
+    "semantic-release": "^4.3.5"
+  }
+}
